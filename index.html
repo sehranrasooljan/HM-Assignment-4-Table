@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+   
+    table{
+        height: 200px;
+        width: 80%;
+        border:1px solid black;
+        border-collapse: collapse;
+       text-align: center;
+       margin: 0 100px;
+     
+    }
+    .table,th {
+background-color: grey;
+    }
+    .g {
+background-color: rgba(128, 128, 128, 0.144);
+    }
+    .table,th,td{        
+        border: 1px solid black;
+        padding: 5px;
+        }
+   h3{
+    text-align: center;
+    font-style: italic;
+   }
+</style>
+<body>
+    <h3>Table:Class Time Table</h3>
+   
+        <table>
+          <tr>
+            <th>Day/Period </th>
+            <th>9:30-10:20 </th>
+            <th>10:20-11:10</th>
+            <th>11:10-12:00 </th>
+            <th>12:00-12:40 </th>
+            <th>12:40-01:30 </th>
+            <th>01:30-02:30</th>
+            <th>02:30-03:10</th>
+            <th>03:10-04:00 </th>
+          </tr>
+          <tr>
+            
+            <td>Monday</td>
+            <td>Maths </td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td rowspan="6">Lunch </td>
+            <td colspan="3">Lab </td>
+            <td>Physics</td>
+          </tr>
+          <tr class="g">
+            <td>Tuesday</td>
+            <td colspan="3">Lab </td>
+            <td>English</td>
+            <td>Maths</td>
+            <td>Chemistry </td>
+            <td>Sports </td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Maths </td>
+            <td>Physics</td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td colspan="3">Libary </td>
+          </tr>
+          <tr class="g">
+            <td>Thursday</td>
+            <td>Maths </td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td colspan="3">Lab </td>
+            <td>Physics</td>
+          </tr>
+          
+          <tr>
+            <td>Friday</td>
+            <td colspan="3">Lab </td>
+            <td>Maths </td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td>Physics</td>
+          </tr>
+          <tr class="g">
+            <td>Saturday</td>
+            <td>Maths </td>
+            <td>English</td>
+            <td>Chemistry</td>
+            <td colspan="3">Seminar </td>
+            <td>Physics</td>
+          </tr>
+          
+          
+
+        </table>
+    
+</body>
+</html>
